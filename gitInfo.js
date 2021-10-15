@@ -11,6 +11,11 @@
 
 //CODE HERE
 
+let gitDefinition = ("Git lets you colab with other coders, tracks files, save such files and store it into a repositories.");{
+    console.log(gitDefinition);
+}
+
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +23,10 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = ("GitHub is a website that lets you keep track of the repositories that you created in Git");{
+    console.log(gitHubDefinition);
+}
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,13 +44,23 @@
 
 //CODE HERE
 
-//////////////////PROBLEM 4////////////////////
+let init = {
+    description: "Initializes local repository in current GitHub folder",
+    code: "git init"
+}; console.log(init);
+
+////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
 //CODE HERE
+
+let clone = {
+    description: "Lets you access and clone or copy a current repository and place it somwhere else",
+    code: "git clone"
+}; console.log(clone);
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +70,11 @@
 
 //CODE HERE
 
+let status = {
+    description: "Tells you about the current status or condition of the repository you're working on ",
+    code: "git status"
+}; console.log(status);
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +82,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: "Adds or connects files to be tracked on GitHub",
+    code: "git add ."
+}; console.log(add);
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +96,10 @@
 
 //CODE HERE
 
+let commit = {
+    description: "Creates a snapshot of your current file",
+    code: "git commit"
+}; console.log(commit);
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +108,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: "Uploads current repository to GitHub to be stored",
+    code: "git push"
+}; console.log(push);
