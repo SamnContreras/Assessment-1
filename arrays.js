@@ -5,10 +5,18 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+// let faveColorsTwo = faveColors.slice();{
+//   console.log(faveColorsTwo)
+// }
+
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+
+// faveColors.push("blue");{
+//   console.log(faveColors)
+// }
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -20,9 +28,13 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
+let middleNums = [2, 3, 4];{
+  console.log(middleNums);
+}
 
 //////////////////PROBLEM 4////////////////////
 /* 
+// EXTRA CREDIT
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
   which will be an array of numbers. 
   Inside of the bigOrSmall function, create a new array called 'answers'. 
